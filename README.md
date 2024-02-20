@@ -36,7 +36,7 @@
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/cf-jongsik/x-forwarded-for-blocker.git
+   git clone https://github.com/cf-jongsik/x-forwarded-blocker.git
    ```
 3. Install NPM packages
    ```sh
