@@ -46,12 +46,16 @@
    ```sh
    npm exec wrangler login
    ```
-5. modify variable in wrangler.toml
-6. deploy
+5. modify variable in wrangler.toml  (csv style) 
+   ```sh
+   [vars]
+   IPTOBLOCK = x.x.x.x,y.y.y.y
+   ```
+7. deploy
    ```sh
    npm exec wrangler deploy
    ```
-7. add secret variable (API TOKEN + ZONE ID)
+8. add secret variable (API TOKEN + ZONE ID)
    ```sh
    npm exec wrangler secret put CLOUDFLARE_API_TOKEN
    ```
